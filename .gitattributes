@@ -1,0 +1,33 @@
+# Git attributes for better cross-platform compatibility
+
+# Auto normalize line endings for all files
+* text=auto
+
+# Python files
+*.py text eol=lf
+*.pyx text eol=lf
+*.pxd text eol=lf
+*.pxi text eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Data files
+*.fasta text
+*.fastq text
+*.fa text
+*.fq text
+*.csv text
+*.tsv text
+*.json text
+*.txt text
+
+# Documentation
+*.md text
+*.markdown text
+README text
+
+# Ignore files in exports
+.gitattributes export-ignore
+.gitignore export-ignore
