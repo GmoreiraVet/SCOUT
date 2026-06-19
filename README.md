@@ -1,4 +1,4 @@
-# Tick Species Identification from ONT Metagenome Data
+# SCOUT - Species Classification Using COI Tags
 
 ## Overview
 
